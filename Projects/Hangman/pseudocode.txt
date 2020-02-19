@@ -1,0 +1,9 @@
+random word needs to be fetched and stored in a variable (from an external list)
+  Alert user of how many lives they have, e.g. 10
+    store this in a variable and this should decrease each time a wrong guess is made
+  input mechanism for letter input
+    If letter matches a letter in the actual word, alert user that they have got it
+      Remove that letter from the word itself so its not repeated
+    if letter does not match, deduct a life
+    If all letters are guessed with lives left, alert they win and print actual word
+    If letters are not guessed, alert them they lose and print actual word
