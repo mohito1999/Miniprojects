@@ -1,0 +1,17 @@
+Framework:
+Game begins with a title: ROCK, PAPER, SCISSORS!
+Win, Loss, Tie counter displayed
+Game asks you rock, paper, scissors or quit
+if you win
+  tells you you win and adds 1 to the win counter
+  goes back to asking you between rock, paper, scissor and quit
+if you lose
+  tells you you lost and adds 1 to the lose counter
+  goes back to asking you between rock, paper, scissor and quit
+if you tie
+  tells you that you tied and adds 1 to the tie counter
+  goes back to asking you between rock, paper, scissor and quit
+if you quit
+  ends game
+
+make sure that always loops back to input after each round (need an infinite loop or a continue would do it too, but infinite loop is easier)

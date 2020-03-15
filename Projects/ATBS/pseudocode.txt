@@ -1,0 +1,19 @@
+collatz pseudocode:
+take an integer from the user
+evaluate whether integer is odd or even first
+if integer is even
+  integer == integer // 2
+  return this value as a new variable
+if integer is odd
+  integer == integer * 3 + 1
+  return this value as a new variable
+run these new variables through the collatz until the number 1 is returned
+  if number == 1:
+  sys.exit()
+
+Dice Game:
+First thing will be that we ask the user if they want to roll the Dice
+if they say yes:
+  return two values each between 1-6 and randomly generated
+if they say no:
+  thank them
